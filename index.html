@@ -7,50 +7,35 @@
   </head>
 
   <body> 
-      <!--INICIO Header-->
-      <header id="header">
-        <h1 class="focus">Focus</h1>
-          <div class="container__header">  
-            <div class="container__nav">
-              <nav id="nav">
-                  <ul>
-                      <li><a href="login.html">Ingresar</a></li>
-                      <li><a href="#" class="select">Registrarse</a></li>
-                  </ul>
-              </nav>
-              <div class="btn__menu" id="btn_menu"><i class="fas fa-bars"></i></div>
-            </div>
-          </div>
-      </header>
-      <!--FINAL Header-->
+    <!--INICIO Nav-->
+    <div id="nav">
+      <nav>
+        <span class="focus">F<span class="opt-focus">o</span>cus</span>
+          <ul>
+            <li><a href="login.html" class="btn_login">Ingresar</a></li>
+            <li><a class="btn_register">Registrarse</a></li>
+          </ul>
+      </nav>
+    </div>
+    <!--FINAL Nav-->
 
-      <div class="container_all" id="container__all">
-
-          <!--INICIO WAVE-->
-          <div class="bg_color"></div>
-          <div class="wave w1"></div>
-          <div class="wave w2"></div>
-          <!--FINAL WAVE-->
-
-          <!--INICIO LOGO-->
-          <div class="logo">
-            <img src="images/focus.png" alt="">
-          </div>
-          <!--FINAL LOGO-->
-
-          <div class="container__info">
-            <h1>Enfocate en lo importante</h1>
-            <h1>bloquea lo que no</h1>
-            <br>
-            <p>Con Focus podrás reservar periodos de estudio</p>
-            <p>para aquello que requieras aprender</p>
-          </div>
+    <!--INICIO Hero-->
+    <section id="hero" class="hero">
+      <div class="logo">
+        <img src="images/focus.png" alt="focus-logo">
       </div>
+      <div class="info">
+        <h1>Enfocate en lo importante bloquea lo que no</h1>
+        <br>
+        <p>Con Focus podrás reservar periodos de estudio para aquello que requieras aprender</p>
+      </div>
+    </section>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#5070D1" fill-opacity="1" d="M0,192L40,197.3C80,203,160,213,240,186.7C320,160,400,96,480,96C560,96,640,160,720,176C800,192,880,160,960,165.3C1040,171,1120,213,1200,229.3C1280,245,1360,235,1400,229.3L1440,224L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path></svg>
 
-      <!--INICIO FOOTER-->
-    <Footer>
+
+    <!--INICIO Download-->
+    <section id="download">
         <div class="container__footer">
-
             <div class="box__footer">
               <h1>Descarga la app</h1> <br>
                 <div class="terms">
@@ -81,13 +66,21 @@
                 </div>      
             </div>        
         </div>
+        Download
+      </section>
+      <!--FINAL Download-->
+      
+      <!--INICIO About-->
+      <section id="about">
+        About
+      </section>
+      <!--FINAL About-->
 
-        <div class="box__copyright">
-            <hr>
-            <p>Todos los derechos reservados © 2022 <b>FocusApp</b></p>
-        </div>
-    </Footer>
-      <!--FINAL FOOTER-->
+      <!--INICIO Contact-->
+      <section id="contact">
+        Contact
+      </section>
+      <!--FINAL Contact-->
 
       <!--Conexion JS-->
       <script src="js/script.js"></script>
