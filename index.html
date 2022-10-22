@@ -1,27 +1,95 @@
 <!DOCTYPE html>
+
 <html lang="es">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
-    <link href="css/style.css" type="text/css" rel="stylesheet" />
-    <title>
-
-    </title>
+    <meta charset=UTF-8 />
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
-  <body>
-    <nav>
-      <div class="icono_hambur" id="hamburguesa" onclick="">
-        
+
+  <body> 
+      <!--INICIO Header-->
+      <header id="header">
+        <h1 class="focus">Focus</h1>
+          <div class="container__header">  
+            <div class="container__nav">
+              <nav id="nav">
+                  <ul>
+                      <li><a href="login.html">Ingresar</a></li>
+                      <li><a href="#" class="select">Registrarse</a></li>
+                  </ul>
+              </nav>
+              <div class="btn__menu" id="btn_menu"><i class="fas fa-bars"></i></div>
+            </div>
+          </div>
+      </header>
+      <!--FINAL Header-->
+
+      <div class="container_all" id="container__all">
+
+          <!--INICIO WAVE-->
+          <div class="bg_color"></div>
+          <div class="wave w1"></div>
+          <div class="wave w2"></div>
+          <!--FINAL WAVE-->
+
+          <!--INICIO LOGO-->
+          <div class="logo">
+            <img src="images/focus.png" alt="">
+          </div>
+          <!--FINAL LOGO-->
+
+          <div class="container__info">
+            <h1>Enfocate en lo importante</h1>
+            <h1>bloquea lo que no</h1>
+            <br>
+            <p>Con Focus podrás reservar periodos de estudio</p>
+            <p>para aquello que requieras aprender</p>
+          </div>
       </div>
 
-      <label class="logo">UPC - IHC</label>
-        <ul id="sliding">
-          <li><span class="cerrar" onclick="">X</span></li>
-          <li><a href="">Home</a></li>
-          <li><a href="">Catalogo</a></li>
-          <li><a href="">Persona</a></li>
-          <li><a href="">Ingresar</a></li>
-        </ul>
-    </nav>
+      <!--INICIO FOOTER-->
+    <Footer>
+        <div class="container__footer">
+
+            <div class="box__footer">
+              <h1>Descarga la app</h1> <br>
+                <div class="terms">
+                    Descarga nuestra aplicacion para poder vivir una mejor experiencia al poder interactuar con nuestras herramientas.
+                </div>
+            </div>
+
+            <div class="box__footer">
+                <div class="img_1">
+                  <img src="images/qr.png" alt="">
+                </div>   
+          
+                <div>
+                  <a href="https://play.google.com/store/games?hl=es" target="_blank" class ="button_1" type="button" >
+                    <img src="images/button_google.png" 
+                    width="140px"
+                    height="50px"
+                    alt="">
+                  </a>
+                </div>
+                <div>
+                  <a href="https://www.apple.com/la/app-store/" target="_blank" class ="button_2" type="button" >
+                    <img src="images/button_ios.png" 
+                    width="140px"
+                    height="45px"
+                    alt="">
+                  </a>
+                </div>      
+            </div>        
+        </div>
+
+        <div class="box__copyright">
+            <hr>
+            <p>Todos los derechos reservados © 2022 <b>FocusApp</b></p>
+        </div>
+    </Footer>
+      <!--FINAL FOOTER-->
+
+      <!--Conexion JS-->
+      <script src="js/script.js"></script>
   </body>
 </html>
