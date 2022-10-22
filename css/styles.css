@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/*IMPORT ES PARA LA FONT FAMILY*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+/*HEADERS*/
+header{
+    width: 100%;
+    height: 100px;
+    font-family: 'Poppins', sans-serif;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 100;
+    transition: all 300ms;
+
+}
+
+.container__header{
+    max-width: 1200px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 0px 20px;
+}
+
+/*INICIO ESTILOS DE LOGO*/
+.logo{
+    margin: 17%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    width: 280px;
+    position: absolute;
+    left: 17%;
+    animation: move_vector 6s ease-in-out infinite;
+}
+
+@keyframes move_vector {
+    0%{
+        transform: translateY(10px);
+    }
+    25%{
+        transform: translateY(-10px);
+    }
+    100%{
+        transform: translateY(10px);
+    }
+}
+
+/*FIN ESTILOS DE LOGO*/
+
+/*INICIO ESTILOS DEL NAV*/
+.container__nav{
+    position: relative;
+    height: 100%;
+    left: 90%;
+}
+nav{
+    height: 100%;
+}
+
+nav ul{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li{
+    margin: 0px 20px;
+}
+
+nav ul li a{
+    color: #fff;
+    font-size: 14px;
+}
+
+/*INICIO CLASE IMAGINARIA*/
+.nav_mod{
+    height: 70px;
+    box-shadow: 1px 1px 10px 0px #00000010;
+    /*background: #5070D1;*/
+    background-color: url(../images/bg2.png);
+}
+
+.nav_mod a{
+    color: white;
+}
+
+.nav_mod .select{
+    color: white;
+}
+
+.select{
+    background: #359EF9;
+    padding: 10px 30px;
+    color: white;
+    border-radius: 20px;
+}
+/*FIN ESTILOS DEL NAV*/
+
+/*FIN HEADERS*/
+
+/*Wave Inicio*/
+.bg_color{
+    width: 100%;
+    height: 60%;
+    left: 0;
+    /*background: #5070D1;*/
+    background-image: url(../images/bg2.png);
+    position: absolute;
+    top: 0;
+}
+.wave{
+    width: 6000%;
+    height: 100%;
+    position: absolute;
+    top: 105px;
+    left: 0;
+    background-image: url(../images/wd1.svg);
+    background-position: bottom;
+}
+
+.w1{
+    animation: w1 7s linear infinite;
+}
+
+.w2{
+    animation: w2 7s linear -.125s infinite, desplazamiento 7s ease -.125s infinite;
+    opacity: 0.5;
+}
+
+@keyframes w1 {
+    0%{
+        margin-left: 0;
+    }
+    100%{
+        margin-left: -1600px;
+    }
+}
+
+@keyframes w2 {
+    0%{
+        margin-left: 0;
+    }
+    100%{
+        margin-left: -1600px;
+    }
+}
+
+@keyframes desplazamiento {
+   0%, 100%{
+        transform: translateY(-25px);
+   }
+
+   50%{
+        transform: translateY(10px);
+   }
+}
+/*FIN WAVE*/
+
+
+/*INICIO ESTILOS DE LA LETRA*/
+.container__info{
+    max-width: 400px;
+    margin-top: 65px;
+    z-index: 2;
+    position: absolute;
+    top: 15%;
+    left: 45%;
+    font-size: 18px;
+}
+
+.focus {
+    position: absolute;
+    font-size: 35px;
+    top: 3%;
+    left: 5%
+}
+/*FIN ESTILOS DE LA LETRA*/
+
+/*AQUI COMIENZA EL FOOTER*/
+
+footer{
+    width: 100%;
+    padding: 50px 0px;
+    font-family: 'Nunito', sans-serif;
+    *background-color: var(--color-esqueleto);
+    background-image: url("../Images/background-footer.svg");
+    background-size: cover;
+
+    /*webkit-mask-image: url("../Images/background-footer.svg");
+    mask-image: url("../Images/background-footer.svg");
+    -webkit-mask-size: cover;
+    mask-size: cover;*/
+}
+
+.container__footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.box__footer{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.img_1{
+    position: relative;
+    right: 6.5cm;
+    top: 15%
+}
+
+.box__footer .terms{
+    max-width: 350px;
+    margin-top: 20px;
+    font-weight: 500;
+    color: #7a7a7a;
+    font-size: 18px;
+
+}
+
+.box__copyright{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 40px;
+}
+
+.box__copyright p{
+    margin-top: 20px;
+    color: #7a7a7a;
+}
+
+.box__copyright hr{
+    border: none;
+    height: 1px;
+    background-color: #7a7a7a;
+}
+/*AQUI TERMINA EL FOOTER*/
+
+/*AQUI COMIENZA STYLES BUTTONS*/
+.button_1
+{
+    padding: 0;
+    margin: 0;
+    position: relative;
+    left: -10%;
+    top: -190%;
+    background-color: transparent;
+    border: #00000010;
+    cursor: pointer;
+}
+
+.button_2
+{
+    padding: 0;
+    margin: 0;
+    position: relative;
+    left: -10%;
+    top: -200%;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+/*AQUI TERMINA STYLE BUTTONS*/
