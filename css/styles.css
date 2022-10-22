@@ -1,48 +1,100 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 /*IMPORT ES PARA LA FONT FAMILY*/
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;500&family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
 *{
-    margin: 0;
     padding: 0;
+    margin: 0;
+    font-family: Poppins, sans-serif;
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
+    color: black;
 }
 
-/*HEADERS*/
-header{
-    width: 100%;
-    height: 100px;
-    font-family: 'Poppins', sans-serif;
-    position: fixed;
-    top: 0;
-    right: 0;
-    z-index: 100;
-    transition: all 300ms;
-
-}
-
-.container__header{
-    max-width: 1200px;
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
-    margin: auto;
-    padding: 0px 20px;
-}
-
-/*INICIO ESTILOS DE LOGO*/
-.logo{
-    margin: 17%;
-    height: 100%;
+section {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+/*INICIO NAV*/
+
+nav {
+    width: 100vw;
+    position: fixed;
+    top: 0px;
+    z-index: 100;
+    transition: all 300ms;
+    margin-top: 20px;
+}
+
+.focus {
+    font-family: 'Archivo', sans-serif;
+    font-weight: 600;
+    position: absolute;
+    font-size: 35px;
+    left: 3%
+}
+
+.opt-focus {
+    font-family: 'Archivo', sans-serif;
+    font-weight: 400;
+}
+
+nav ul{
+    float: right;
+    margin-right: 30px;
+    margin-top: 5px;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 30px;
+}
+
+nav .btn_login{
+    background: #5070D1;
+    font-weight: 500;
+    height: 2rem;
+    padding: 10px 30px;
+    color: white;
+    border-radius: 6px;
+    box-sizing: border-box;
+    border: 1px solid #FFFFFF;
+}
+
+nav .btn_register{
+    background: #fff;
+    font-weight: 500;
+    height: 2rem;
+    padding: 10px 30px;
+    color: #5070D1;
+    border-radius: 6px;
+}
+/*FIN NAV*/
+
+
+/*INICIO HERO*/
+
+.hero {
+    width: 100vw;
+    height: 60vh; 
+    background: #5070D1;
+    display: flex;
+    padding-top: 100px;
+    /* background-image: url(../images/bg2.png); */
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    width: 50vw;
+}
+
 .logo img{
     width: 280px;
-    position: absolute;
-    left: 17%;
     animation: move_vector 6s ease-in-out infinite;
 }
 
@@ -58,79 +110,26 @@ header{
     }
 }
 
-/*FIN ESTILOS DE LOGO*/
-
-/*INICIO ESTILOS DEL NAV*/
-.container__nav{
-    position: relative;
-    height: 100%;
-    left: 90%;
-}
-nav{
-    height: 100%;
+.info{
+    max-width: 540px;
+    z-index: 2;
+    margin-right: 10%;
 }
 
-nav ul{
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+h1 {
+    font-weight: 700;
+    line-height: 60px;
+    font-size: 40px;
 }
 
-nav ul li{
-    margin: 0px 20px;
-}
+/*FIN HERO*/
 
-nav ul li a{
-    color: #fff;
-    font-size: 14px;
-}
 
-/*INICIO CLASE IMAGINARIA*/
-.nav_mod{
-    height: 70px;
-    box-shadow: 1px 1px 10px 0px #00000010;
-    /*background: #5070D1;*/
-    background-color: url(../images/bg2.png);
-}
 
-.nav_mod a{
-    color: white;
-}
 
-.nav_mod .select{
-    color: white;
-}
 
-.select{
-    background: #359EF9;
-    padding: 10px 30px;
-    color: white;
-    border-radius: 20px;
-}
-/*FIN ESTILOS DEL NAV*/
-
-/*FIN HEADERS*/
 
 /*Wave Inicio*/
-.bg_color{
-    width: 100%;
-    height: 60%;
-    left: 0;
-    /*background: #5070D1;*/
-    background-image: url(../images/bg2.png);
-    position: absolute;
-    top: 0;
-}
-.wave{
-    width: 6000%;
-    height: 100%;
-    position: absolute;
-    top: 105px;
-    left: 0;
-    background-image: url(../images/wd1.svg);
-    background-position: bottom;
-}
 
 .w1{
     animation: w1 7s linear infinite;
@@ -169,26 +168,6 @@ nav ul li a{
    }
 }
 /*FIN WAVE*/
-
-
-/*INICIO ESTILOS DE LA LETRA*/
-.container__info{
-    max-width: 400px;
-    margin-top: 65px;
-    z-index: 2;
-    position: absolute;
-    top: 15%;
-    left: 45%;
-    font-size: 18px;
-}
-
-.focus {
-    position: absolute;
-    font-size: 35px;
-    top: 3%;
-    left: 5%
-}
-/*FIN ESTILOS DE LA LETRA*/
 
 /*AQUI COMIENZA EL FOOTER*/
 
