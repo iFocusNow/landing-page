@@ -26,51 +26,30 @@
 - [Autores](#authors)
 
 ## 🧐 Sobre el proyecto <a name = "about"></a>
-Write about 1-2 paragraphs describing the purpose of your project.
+Landing Page realizada con CSS y HTML para la aplicación móvil "Focus", la cual reduce el tiempo de distracciones en el teléfono móvil en periodos de tiempo de estudio. 
 
 ## 🏁 Como empezar <a name = "getting_started"></a>
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
 
-### Prerequisites
-What things you need to install the software and how to install them.
+Se necesita de un manejador de paquetes de Javascript, cómo <a href="https://www.npmjs.com/">npm</a> o <a href="https://yarnpkg.com/">Yarn</a>.
+
+Clone el repositorio localmente y descargue los paquetes necesarios con su manejador de paquetes. Por ejemplo:
 
 ```
-Give examples
+npm install
 ```
 
-### Installing
-A step by step series of examples that tell you how to get a development env running.
-
-Say what the step will be
+Correr localmente en modo desarrollador con el manejador de paquete que utilice. Por ejemplo: 
 
 ```
-Give the example
+npm run dev
 ```
 
-And repeat
+Al realizar ello aparecerá un puerto local por el cual se actualizará automáticamente al realizar cambios.
 
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo.
-
-## 🔧 Running the tests <a name = "tests"></a>
+## 🔧 Tests<a name = "tests"></a>
 Explain how to run the automated tests for this system.
 
-### Break down into end to end tests
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-Explain what these tests test and why
-
-```
-Give an example
-```
 
 ## 🚀 Lanzamiento <a name = "deployment"></a>
 Add additional notes about how to deploy this on a live system.
