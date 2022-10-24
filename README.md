@@ -21,7 +21,6 @@
 ## 📝 Tabla de Contenidos
 - [Sobre el proyecto](#about)
 - [Como empezar](#getting_started)
-- [Lanzamiento](#deployment)
 - [Nuestras herramientas](#built_using)
 - [Autores](#authors)
 
@@ -48,11 +47,7 @@ npm run dev
 Al realizar ello aparecerá un puerto local por el cual se actualizará automáticamente al realizar cambios.
 
 ## 🔧 Tests<a name = "tests"></a>
-Explain how to run the automated tests for this system.
-
-
-## 🚀 Lanzamiento <a name = "deployment"></a>
-Add additional notes about how to deploy this on a live system.
+Los tests han sido realizado como "pruebas de aceptación" en <a href="https://github.com/iFocusNow/acceptance-test">nuestro otro repositorio</a>.
 
 ## ⛏️ Nuestra herramientas <a name = "built_using"></a>
 - [Vite](https://vitejs.dev/) - Frontend Tooling
