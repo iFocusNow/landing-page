@@ -4,8 +4,6 @@
   <head>
     <meta charset=UTF-8 />
     <link rel="stylesheet" href="css/styles.css" />
-     <!--Icon-Font-->
-     <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
   </head>
 
   <body> 
@@ -27,147 +25,137 @@
         <img src="images/focus.png" alt="focus-logo">
       </div>
       <div class="info">
-        <h1>Enfocate en lo importante bloquea lo que no</h1>
-        <br>
-        <p>Con Focus podrás reservar periodos de estudio para aquello que requieras aprender</p>
+        <div>
+          <div class="wrapper">
+            <h1>Enfocate en lo importante,</h1>
+            <ul class="dynamic-txt">
+              <li><span>bloque lo que no</span></li>
+              <li><span>mejora tus notas</span></li>
+              <li><span>organizate mejor</span></li>
+            </ul>
+            <br>
+            <p>Con Focus podrás reservar periodos de estudio para aquello que requieras aprender</p>
+          </div>
+        </div>
       </div>
     </section>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#5070D1" fill-opacity="1" d="M0,192L40,197.3C80,203,160,213,240,186.7C320,160,400,96,480,96C560,96,640,160,720,176C800,192,880,160,960,165.3C1040,171,1120,213,1200,229.3C1280,245,1360,235,1400,229.3L1440,224L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path></svg>
+    <svg class="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#5070D1" fill-opacity="1" d="M0,192L40,197.3C80,203,160,213,240,186.7C320,160,400,96,480,96C560,96,640,160,720,176C800,192,880,160,960,165.3C1040,171,1120,213,1200,229.3C1280,245,1360,235,1400,229.3L1440,224L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path></svg>
 
     <!--INICIO Download-->
-    <section id="download">
-          <div class ="message_download">
-              <h1>Descarga la app</h1> <br>
-                <div class="terms">
-                    Descarga nuestra aplicacion para poder vivir una mejor experiencia <br>
-                    al poder interactuar con nuestras herramientas.
-                </div>
-            </div>
-
-            <div>
-                <div class="img_1">
-                  <img src="images/qr.png" alt="">
-                </div>   
-          
-                <div>
-                  <a href="https://play.google.com/store/games?hl=es" target="_blank" class ="button_1" type="button" >
-                    <img src="images/button_google.png" 
-                    width="140px"
-                    height="50px"
-                    alt="">
-                  </a>
-                </div>
-                <div>
-                  <a href="https://www.apple.com/la/app-store/" target="_blank" class ="button_2" type="button" >
-                    <img src="images/button_ios.png" 
-                    width="140px"
-                    height="45px"
-                    alt="">
-                  </a>
-                </div>      
-            </div>        
+    <section id="download" class="download">
+      <div class="message-download">
+        <h2>Descarga la app</h2>
+        <p>Descarga nuestra aplicacion y empieza a enfocarte en lo importante, en tí. </p>
+      </div>
+      <div class = "apps">
+        <img src="images/qr.png">
+        <div class="apps-banner">
+          <a href="https://play.google.com/store/games?hl=es"><img src="images/google-banner.svg" alt="google"></a>
+          <a href="https://www.apple.com/app-store"> <img src="images/apple-banner.svg" alt="ios" href="https://www.apple.com/la/app-store/"> </a>
         </div>
+      <div>
       </section>
-      
       <!--FINAL Download-->
+
       <!--INICIO About-->
-      <section id="about">
-
-        <div class ="message_about">
-          <h1>Sobre Nostros</h1> <br>
-            <div class="terms">
-                Descarga nuestra aplicacion para poder vivir una mejor experiencia
-                al poder interactuar con nuestras herramientas.
-            </div>
-          </div>
-        
-      </section>
-      <br><br><br>
-      <!--SLIDER COMIENZO-->
-      <section class="slider">
-        <div class="slider__container container">
-            <img src="/images/leftarrow.svg" class="slider__arrow" id="before">
-
-            <section class="slider__body slider__body--show" data-id="1">
-                <div class="slider__texts">
-                    <h2 class="subtitle">¡Hola! Mi nombre es Cristina Vidal</h2>
-                    <p class="slider__review">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed atque officiis totam modi, non
-                        maiores.
-                    </p>
-                </div>
-
-                <figure class="slider__picture">
-                    <img src="images/picture1.jpg" class="slider__img">
-                </figure>
-            </section>
-
-            <section class="slider__body" data-id="2">
-                <div class="slider__texts">
-                    <h2 class="subtitle">¡Hola! Mi nombre es Alejandra Perez</h2>
-                    <p class="slider__review">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nesciunt odio, nihil quibusdam autem nam in veritatis voluptas nobis.
-                    </p>
-                </div>
-
-                <figure class="slider__picture">
-                    <img src="images/picture2.jpg" class="slider__img">
-                </figure>
-            </section>
-
-            <section class="slider__body" data-id="3">
-                <div class="slider__texts">
-                    <h2 class="subtitle">¡Hola! Mi nombre es Pablo Gonzales</h2>
-                    <p class="slider__review">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis quis accusantium perferendis vel cumque illum quia totam repellendus!
-                    </p>
-                </div>
-
-                <figure class="slider__picture">
-                    <img src="images/picture3.jpg" class="slider__img">
-                </figure>
-            </section>
-
-            <section class="slider__body" data-id="4">
-                <div class="slider__texts">
-                    <h2 class="subtitle">¡Hola! Mi nombre es Martin Gonzales </h2>
-                    <p class="slider__review">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis quis accusantium perferendis vel cumque illum quia totam repellendus!
-                    </p>
-                </div>
-
-                <figure class="slider__picture">
-                    <img src="images/picture3.jpg" class="slider__img">
-                </figure>
-            </section>
-
-            <img src="images/rightarrow.svg" class="slider__arrow" id="next">
+      <section id="about" class="about">
+        <div class="message-about">
+          <h2>Sobre Nosotros</h2>
+          <p>Somos una Startup que emergió en el año 2022 compuesta por estudiantes universitarios de la Universidad Peruana de Ciencias Aplicadas.<br>Nuestro objetivo es permitir periodos de estudio en los que el uso del teléfono móvil sea para completar su objetivo académico y no para distraerse.</p>
         </div>
-    </section>
-    <!--SLIDER FINAL-->
 
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#5070D1" fill-opacity="1" d="M0,160L60,160C120,160,240,160,360,144C480,128,600,96,720,106.7C840,117,960,171,1080,176C1200,181,1320,139,1380,117.3L1440,96L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
+        <!--SLIDER COMIENZO-->
+        <div class="slider">
+          <img src="/images/left-arrow.svg" class="slider-arrow" id="before">
+          <div class="slider__container container">
+              <div class="slider__body slider__body--show" data-id="1">
+                <img src="images/picture1.jpg" class="slider-img">
+                <div class="slider__texts">
+                  <h3 class="person-name">Maria Rojas</h3>
+                  <p class="slider__review">
+                    Focus me ha dado lo que necesitaba para enfocarme en mis estudios y ahora puedo concentrarme por más tiempo en lo que necesito aprender.
+                  </p>
+                </div>
+              </div>
+              <div class="slider__body" data-id="2">
+                <img src="images/picture2.jpg" class="slider-img">
+                <div class="slider__texts">
+                  <h3 class="person-name">Alejandra Pajarez</h3>
+                  <p class="slider__review">
+                    Puedo manejar mi vida de estudiante y mi vida de fiestas sin ningun problema. ¡Me concentro cuando y como quiero!
+                  </p>
+                </div>
+              </div>
+              <div class="slider__body" data-id="3">
+                <img src="images/picture3.jpg" class="slider-img">
+                <div class="slider__texts">
+                  <h3 class="person-name">Armando Casas</h3>
+                  <p class="slider__review">
+                    Pase de últimos puestos a ser un estudiante de excelencia gracias a Focus. Enfocarse nunca ha sido tan agradable.
+                  </p>
+                </div>
+              </div>
+              <div class="slider__body" data-id="4">
+                <img src="images/picture4.jpg" class="slider-img">
+                <div class="slider__texts">
+                  <h3 class="person-name">Joshua Lopez</h3>
+                  <p class="slider__review">
+                    He pasado el curso de Algoritmos gracias a concentrarme con Focus. Ahora soy coach de matemática competitiva.
+                  </p>
+                </div>
+              </div>
+          </div>
+          <img src="images/right-arrow.svg" class="slider-arrow" id="next">
+        </div>
+        <!--SLIDER FINAL-->
+      </section>
+      <!--FINAL About-->
+
       <!--FINAL About-->
       <!--INICIO Contact-->
+      <svg class="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#5070D1" fill-opacity="1" d="M0,160L60,160C120,160,240,160,360,144C480,128,600,96,720,106.7C840,117,960,171,1080,176C1200,181,1320,139,1380,117.3L1440,96L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
       <section id="contact" class="contact">
+        <div class="contact-info">
+          <h2 class = "contact_header">Contáctanos</h2>
+            <p><span class="contact_weight">Dirección: </span>Av. Lorem, Urb. Ipsum. Lima, Peru</p>
+            <p><span class="contact_weight">Teléfono: </span>999 999 999</p>
+            <p><span class="contact_weight">Correo electrónico: </span>ifocusnow@mail.com</p>
+        </div>
         <div class="container-form">
-          <div class="info-form">
-              <h2 class = "contact_header">Contáctanos</h2>
-              <p class ="paragraph_letter">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui eligendi est voluptates quae ipsam eius, in quasi odio porro aut vel beatae aperiam.</p>
-              <a href="#"><i class="fa fa-phone"></i> 123-456-789</a>
-              <a href="#"><i class="fa fa-envelope"></i> email@tudominio.com</a>
-              <a href="#"><i class="fa fa-map-marked"></i> Ciudad, Pais</a>
+          <form action="">
+          <div class="row">
+            <div class="col-25">
+              <label for="fname">Nombre</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="fname" name="firstname" placeholder="">
+            </div>
           </div>
-          <form action="#" autocomplete="off">
-              <input type="text" name="nombre" placeholder="Tu Nombre" class="campo">
-              <input type="emal" name="email" placeholder="Tu Email" class="campo">
-              <textarea name="mensaje" placeholder="Tu Mensaje..."></textarea>
-              <input type="submit" name="enviar" value="Enviar Mensaje" class="btn-enviar">
-          </form>
+          <div class="row">
+            <div class="col-25">
+              <label for="lname">Correo</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="mail" name="email" placeholder="">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="subject">Asunto</label>
+            </div>
+            <div class="col-75">
+              <textarea id="subject" name="subject" placeholder="Escribe algo..." style="height:200px"></textarea>
+            </div>
+          </div>
           <br>
-      </div>
+          <div class="row">
+            <input type="submit" value="Enviar">
+          </div>
+          </form>
+        </div>
       </section>
       <!--FINAL Contact-->
+
       <!--Conexion JS-->
       <script src="js/script.js"></script>
   </body>
