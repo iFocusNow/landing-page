@@ -1,27 +1,162 @@
 <!DOCTYPE html>
+
 <html lang="es">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
-    <link href="css/style.css" type="text/css" rel="stylesheet" />
-    <title>
-
-    </title>
+    <meta charset=UTF-8 />
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
-  <body>
-    <nav>
-      <div class="icono_hambur" id="hamburguesa" onclick="">
-        
-      </div>
 
-      <label class="logo">UPC - IHC</label>
-        <ul id="sliding">
-          <li><span class="cerrar" onclick="">X</span></li>
-          <li><a href="">Home</a></li>
-          <li><a href="">Catalogo</a></li>
-          <li><a href="">Persona</a></li>
-          <li><a href="">Ingresar</a></li>
-        </ul>
-    </nav>
+  <body> 
+    <!--INICIO Nav-->
+    <div class = "contenedor">
+      <nav id ="nav">
+        <span class="focus">F<span class="opt-focus">o</span>cus</span>
+          <ul>
+            <li><a href="login.html" class="btn_login">Ingresar</a></li>
+            <li><a href="login.html" class="btn_register">Registrarse</a></li>
+          </ul>
+      </nav>
+    </div>
+    <!--FINAL Nav-->
+  
+    <!--INICIO Hero-->
+    <section id="hero" class="hero">
+      <div class="logo">
+        <img src="images/focus.png" alt="focus-logo">
+      </div>
+      <div class="info">
+        <div>
+          <div class="wrapper">
+            <h1>Enfocate en lo importante,</h1>
+            <ul class="dynamic-txt">
+              <li><span>bloque lo que no</span></li>
+              <li><span>mejora tus notas</span></li>
+              <li><span>organizate mejor</span></li>
+            </ul>
+            <br>
+            <p>Con Focus podrás reservar periodos de estudio para aquello que requieras aprender</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <svg class="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#5070D1" fill-opacity="1" d="M0,192L40,197.3C80,203,160,213,240,186.7C320,160,400,96,480,96C560,96,640,160,720,176C800,192,880,160,960,165.3C1040,171,1120,213,1200,229.3C1280,245,1360,235,1400,229.3L1440,224L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path></svg>
+
+    <!--INICIO Download-->
+    <section id="download" class="download">
+      <div class="message-download">
+        <h2>Descarga la app</h2>
+        <p>Descarga nuestra aplicacion y empieza a enfocarte en lo importante, en tí. </p>
+      </div>
+      <div class = "apps">
+        <img src="images/qr.png">
+        <div class="apps-banner">
+          <a href="https://play.google.com/store/games?hl=es"><img src="images/google-banner.svg" alt="google"></a>
+          <a href="https://www.apple.com/app-store"> <img src="images/apple-banner.svg" alt="ios" href="https://www.apple.com/la/app-store/"> </a>
+        </div>
+      <div>
+      </section>
+      <!--FINAL Download-->
+
+      <!--INICIO About-->
+      <section id="about" class="about">
+        <div class="message-about">
+          <h2>Sobre Nosotros</h2>
+          <p>Somos una Startup que emergió en el año 2022 compuesta por estudiantes universitarios de la Universidad Peruana de Ciencias Aplicadas.<br>Nuestro objetivo es permitir periodos de estudio en los que el uso del teléfono móvil sea para completar su objetivo académico y no para distraerse.</p>
+        </div>
+
+        <!--SLIDER COMIENZO-->
+        <div class="slider">
+          <img src="/images/left-arrow.svg" class="slider-arrow" id="before">
+          <div class="slider__container container">
+              <div class="slider__body slider__body--show" data-id="1">
+                <img src="images/picture1.jpg" class="slider-img">
+                <div class="slider__texts">
+                  <h3 class="person-name">Maria Rojas</h3>
+                  <p class="slider__review">
+                    Focus me ha dado lo que necesitaba para enfocarme en mis estudios y ahora puedo concentrarme por más tiempo en lo que necesito aprender.
+                  </p>
+                </div>
+              </div>
+              <div class="slider__body" data-id="2">
+                <img src="images/picture2.jpg" class="slider-img">
+                <div class="slider__texts">
+                  <h3 class="person-name">Alejandra Pajarez</h3>
+                  <p class="slider__review">
+                    Puedo manejar mi vida de estudiante y mi vida de fiestas sin ningun problema. ¡Me concentro cuando y como quiero!
+                  </p>
+                </div>
+              </div>
+              <div class="slider__body" data-id="3">
+                <img src="images/picture3.jpg" class="slider-img">
+                <div class="slider__texts">
+                  <h3 class="person-name">Armando Casas</h3>
+                  <p class="slider__review">
+                    Pase de últimos puestos a ser un estudiante de excelencia gracias a Focus. Enfocarse nunca ha sido tan agradable.
+                  </p>
+                </div>
+              </div>
+              <div class="slider__body" data-id="4">
+                <img src="images/picture4.jpg" class="slider-img">
+                <div class="slider__texts">
+                  <h3 class="person-name">Joshua Lopez</h3>
+                  <p class="slider__review">
+                    He pasado el curso de Algoritmos gracias a concentrarme con Focus. Ahora soy coach de matemática competitiva.
+                  </p>
+                </div>
+              </div>
+          </div>
+          <img src="images/right-arrow.svg" class="slider-arrow" id="next">
+        </div>
+        <!--SLIDER FINAL-->
+      </section>
+      <!--FINAL About-->
+
+      <!--FINAL About-->
+      <!--INICIO Contact-->
+      <svg class="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#5070D1" fill-opacity="1" d="M0,160L60,160C120,160,240,160,360,144C480,128,600,96,720,106.7C840,117,960,171,1080,176C1200,181,1320,139,1380,117.3L1440,96L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
+      <section id="contact" class="contact">
+        <div class="contact-info">
+          <h2 class = "contact_header">Contáctanos</h2>
+            <p><span class="contact_weight">Dirección: </span>Av. Lorem, Urb. Ipsum. Lima, Peru</p>
+            <p><span class="contact_weight">Teléfono: </span>999 999 999</p>
+            <p><span class="contact_weight">Correo electrónico: </span>ifocusnow@mail.com</p>
+        </div>
+        <div class="container-form">
+          <form action="">
+          <div class="row">
+            <div class="col-25">
+              <label for="fname">Nombre</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="fname" name="firstname" placeholder="">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="lname">Correo</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="mail" name="email" placeholder="">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="subject">Asunto</label>
+            </div>
+            <div class="col-75">
+              <textarea id="subject" name="subject" placeholder="Escribe algo..." style="height:200px"></textarea>
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <input type="submit" value="Enviar">
+          </div>
+          </form>
+        </div>
+      </section>
+      <!--FINAL Contact-->
+
+      <!--Conexion JS-->
+      <script src="js/script.js"></script>
   </body>
 </html>
