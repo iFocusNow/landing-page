@@ -30,7 +30,7 @@
         <p>Con Focus podrás reservar periodos de estudio para aquello que requieras aprender</p>
       </div>
     </section>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#5070D1" fill-opacity="1" d="M0,192L40,197.3C80,203,160,213,240,186.7C320,160,400,96,480,96C560,96,640,160,720,176C800,192,880,160,960,165.3C1040,171,1120,213,1200,229.3C1280,245,1360,235,1400,229.3L1440,224L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path></svg>
+    <svg class="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#5070D1" fill-opacity="1" d="M0,192L40,197.3C80,203,160,213,240,186.7C320,160,400,96,480,96C560,96,640,160,720,176C800,192,880,160,960,165.3C1040,171,1120,213,1200,229.3C1280,245,1360,235,1400,229.3L1440,224L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path></svg>
 
     <!--INICIO Download-->
     <section id="download" class="download">
@@ -102,28 +102,80 @@
       </section>
       <!--FINAL About-->
 
-      <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#5070D1" fill-opacity="1" d="M0,160L60,160C120,160,240,160,360,144C480,128,600,96,720,106.7C840,117,960,171,1080,176C1200,181,1320,139,1380,117.3L1440,96L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg> -->
       <!--FINAL About-->
       <!--INICIO Contact-->
-      <!-- <section id="contact" class="contact">
+      <svg class="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#5070D1" fill-opacity="1" d="M0,160L60,160C120,160,240,160,360,144C480,128,600,96,720,106.7C840,117,960,171,1080,176C1200,181,1320,139,1380,117.3L1440,96L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
+      <section id="contact" class="contact">
+        <div class="contact-info">
+          <h2 class = "contact_header">Contáctanos</h2>
+            <p><span class="contact_weight">Dirección: </span>Av. Lorem, Urb. Ipsum. Lima, Peru</p>
+            <p><span class="contact_weight">Teléfono: </span>999 999 999</p>
+            <p><span class="contact_weight">Correo electrónico: </span>ifocusnow@mail.com</p>
+        </div>
         <div class="container-form">
-          <div class="info-form">
-              <h2 class = "contact_header">Contáctanos</h2>
-              <p class ="paragraph_letter">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui eligendi est voluptates quae ipsam eius, in quasi odio porro aut vel beatae aperiam.</p>
-              <a href="#"><i class="fa fa-phone"></i> 123-456-789</a>
-              <a href="#"><i class="fa fa-envelope"></i> email@tudominio.com</a>
-              <a href="#"><i class="fa fa-map-marked"></i> Ciudad, Pais</a>
+          <form action="">
+          <div class="row">
+            <div class="col-25">
+              <label for="fname">Nombre</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="fname" name="firstname" placeholder="">
+            </div>
           </div>
-          <form action="#" autocomplete="off">
-              <input type="text" name="nombre" placeholder="Tu Nombre" class="campo">
-              <input type="emal" name="email" placeholder="Tu Email" class="campo">
-              <textarea name="mensaje" placeholder="Tu Mensaje..."></textarea>
-              <input type="submit" name="enviar" value="Enviar Mensaje" class="btn-enviar">
-          </form>
+          <div class="row">
+            <div class="col-25">
+              <label for="lname">Correo</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="mail" name="email" placeholder="">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="subject">Asunto</label>
+            </div>
+            <div class="col-75">
+              <textarea id="subject" name="subject" placeholder="Escribe algo..." style="height:200px"></textarea>
+            </div>
+          </div>
           <br>
-      </div>
-      </section> -->
+          <div class="row">
+            <input type="submit" value="Enviar">
+          </div>
+          </form>
+        </div>
+          <!-- <form action="" autocomplete="off">
+            <div>
+              <a>Nombre</a><input type="text" name="nombre" placeholder="" class="campo">
+            </div>
+            <div>
+              <a>Correo</a><input type="email" name="email" placeholder="" class="campo">
+            </div>
+            <div>
+              <a>Asunto</a><input type="text" name="message" placeholder="" class="campo">
+            </div>
+            <input type="submit" name="enviar" value="Enviar" class="btn-enviar">
+          </form> -->
+        </div>
+
+          <!-- <div class="container-form">
+            <div class="info-form">
+                <h2 class = "contact_header">Contáctanos</h2>
+                <p class ="paragraph_letter">Av. Lorem, Urb. Ipsum. Lima, Peru</p>
+                <a href="#"><i class="fa fa-phone"></i> 999 999 999</a>
+                <a href="#"><i class="fa fa-envelope"></i> ifocusno@main.com</a>
+            </div>
+            <form action="#" autocomplete="off">
+                <input type="text" name="nombre" placeholder="Tu Nombre" class="campo">
+                <input type="emal" name="email" placeholder="Tu Email" class="campo">
+                <textarea name="mensaje" placeholder="Tu Mensaje..."></textarea>
+                <input type="submit" name="enviar" value="Enviar Mensaje" class="btn-enviar">
+            </form>
+            <br>
+        </div> -->
+      </section>
       <!--FINAL Contact-->
+
       <!--Conexion JS-->
       <script src="js/script.js"></script>
   </body>
