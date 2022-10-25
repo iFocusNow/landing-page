@@ -74,7 +74,7 @@ nav .btn_login{
 }
 
 nav .btn_login:hover {
-    background-color: #293036;
+    background-color: #415baa;
 }
 
 nav .btn_register{
@@ -84,6 +84,10 @@ nav .btn_register{
     padding: 10px 30px;
     color: #5070D1;
     border-radius: 6px;
+}
+
+nav .btn_register:hover {
+    background-color: #dae1fa;
 }
 
 .nav_mod{
@@ -104,6 +108,12 @@ nav .btn_register{
     background-color: #5070D1;
     background-attachment: fixed;
     margin-bottom: -1%;
+}
+
+.btn_br {
+    content: "";
+    display: block;
+    margin: 40px; 
 }
 
 .logo{
@@ -138,7 +148,20 @@ nav .btn_register{
 .info{
     max-width: 550px;
     z-index: 2;
-    margin-right: 10%;
+}
+
+
+.btn_download{
+    background: #fff;
+    font-weight: 600;
+    height: 2rem;
+    padding: 10px 30px;
+    color: #5070D1;
+    border-radius: 6px;
+}
+
+.btn_download:hover {
+    background-color: #dae1fa;
 }
 
 .wrapper .dynamic-txt {
@@ -213,17 +236,17 @@ h2 {
     display: flex;
     flex: 50%;
     flex-direction: column;
-    margin-left: 12%;
     padding-right: 5%;
+    margin-left: 12%;
+    margin-right: 8%;
 }
 
 .apps {
     display: flex;
-    flex: 50%;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
-    margin-right: 5%;
+    padding-left: 2%;
+    margin-right: 10%;
 }
 
 .apps div {
@@ -449,7 +472,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: #293036;
+    background-color: #415baa;
 }
 
 .col-25 {
@@ -486,20 +509,6 @@ input[type=submit]:hover {
     }
 }
 
-/* .container-form form .campo, textarea{
-    width: 80%;
-    padding: 15px 10px;
-    border: 1px solid #fff;
-    margin-bottom: 20px;
-    border-radius: 3px;
-    outline: 0px;
-} */
-/* .container-form form textarea{
-    max-width: 530px;
-    min-width: 530px;
-    min-height: 140px;
-    max-height: 150px;
-} */
 .container-form .btn-enviar{
     background: #5070D1;
     font-weight: 500;
@@ -522,7 +531,6 @@ input[type=submit]:hover {
     font-weight: 600;
     color: #FFFFFF;
 }
-
 
 /*Contact Final*/
 
