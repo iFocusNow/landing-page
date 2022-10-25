@@ -28,8 +28,6 @@
 Landing Page realizada con CSS y HTML para la aplicación móvil "Focus", la cual reduce el tiempo de distracciones en el teléfono móvil en periodos de tiempo de estudio. 
 
 ## 🏁 Como empezar <a name = "getting_started"></a>
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
-
 Se necesita de un manejador de paquetes de Javascript, cómo <a href="https://www.npmjs.com/">npm</a> o <a href="https://yarnpkg.com/">Yarn</a>.
 
 Clone el repositorio localmente y descargue los paquetes necesarios con su manejador de paquetes. Por ejemplo:
